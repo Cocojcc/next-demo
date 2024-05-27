@@ -38,6 +38,7 @@ export default function Page() {
                 width={1000}
                 height={760}
                 className="hidden md:block"
+                alt="桌面版"
             />
 
             <Image
@@ -45,6 +46,7 @@ export default function Page() {
                 width={560}
                 height={620}
                 className="block md:hidden"
+                alt="手机版"
             />
         </div>
       </div>
